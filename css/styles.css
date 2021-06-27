@@ -1,0 +1,111 @@
+body {
+    background-color: #F5F5F5;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-family: DejaVu Sans Mono, monospace;
+    font-weight: bold;
+}
+
+a:hover {
+    color: orange;
+}
+
+a.download {
+    color: black;
+}
+a.download:hover {
+    color: orange;
+}
+
+header{
+     height: auto;
+ }
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    font-family: DejaVu Sans Mono, monospace;
+    font-weight: bold;
+}
+
+nav{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: DejaVu Sans Mono, monospace;
+    font-weight: bold;
+    font-size: medium;
+    padding: 20px;
+}
+
+h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-family: Сomic Sans MS, cursive;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    border: 4px double black;
+}
+
+div#name{
+    background-color: #F5F5F5;
+    width: auto;
+    height: 110px;
+    padding: 0;
+}
+
+div#nametxt{
+    text-align: center;
+    background-color: #F5F5F5;
+    color: orange;
+    align-self: center;
+    height: auto;
+    font-family: Сomic Sans MS, cursive;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+div#namelogo{
+    background-color: #F5F5F5;
+    float: left;
+}
+
+main{
+    text-align: center;
+    font-family: DejaVu Sans Mono, monospace;
+    font-weight: normal;
+    padding: 20px;
+    font-size: 20px;
+}
+
+button{
+    font-family: DejaVu Sans Mono, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    background-color: black;
+    border: none;
+    color: white;
+    margin: 30px;
+}
+
+button:hover {
+    color: orange;
+}
+
+li {
+    padding: 10px;
+    margin: 20px;
+}
