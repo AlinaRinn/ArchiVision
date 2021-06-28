@@ -10,6 +10,10 @@ a {
     font-weight: bold;
 }
 
+input{
+    width: 600px;
+}
+
 a:hover {
     color: orange;
 }
@@ -77,11 +81,6 @@ div#nametxt{
     font-size: 80px;
 }
 
-div#namelogo{
-    background-color: #F5F5F5;
-    float: left;
-}
-
 main{
     text-align: center;
     font-family: DejaVu Sans Mono, monospace;
@@ -94,7 +93,7 @@ button{
     font-family: DejaVu Sans Mono, monospace;
     font-weight: bold;
     font-size: 20px;
-    padding: 20px;
+    padding: 5px;
     background-color: black;
     border: none;
     color: white;
