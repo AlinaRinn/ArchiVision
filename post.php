@@ -1,7 +1,10 @@
 <?php
 require_once($_SERVER['DOCUMENT_ROOT'] . '/layouts/header.php');
 
+// https://github.com/AlinaRinn/ArchiVision //
+
 $strURL = htmlspecialchars($_POST["URL"]);
+echo "<img src='".$strURL."' alt='Error'><br><br>";
 
 $url = 'https://definingstylearchitecture.cognitiveservices.azure.com/customvision/v3.0/Prediction/947e6fce-51fd-4e92-9702-f9e36108f0ac/classify/iterations/Iteration7/url';
 
